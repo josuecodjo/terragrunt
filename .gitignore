@@ -1,0 +1,22 @@
+## network folder
+1-network/.terraform
+1-network/.terraform.lock.hcl
+1-network/terraform.tfstate
+1-network/terraform.tfstate.backup
+
+## database and gateway folder
+2-bd_gw/.terraform
+2-bd_gw/.terraform.lock.hcl
+2-bd_gw/terraform.tfstate
+2-bd_gw/terraform.tfstate.backup
+
+## web and server folder
+3-web_server/.terraform
+3-web_server/.terraform.lock.hcl
+3-web_server/terraform.tfstate
+3-web_server/terraform.tfstate.backup
+
+### all
+.terraform
+backend.tf
+all-states
