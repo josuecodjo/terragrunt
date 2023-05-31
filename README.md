@@ -42,12 +42,14 @@ cd 3-web_server && terragrunt plan
 terragrunt apply
 
 
-OR
+OR IN ORDER TO RUN FOR ALL SUBFOLDERS (1,2 and 3 together)
 
 terragrunt run-all plan
 
 terragrunt run-all apply
 
 terragrunt run-all destroy
+
+terragrunt run-all output
 ```
 - Server will be accessible on http://localhost:80 with user Admin and pass zabbix
