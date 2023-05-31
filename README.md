@@ -40,5 +40,14 @@ terragrunt apply
 cd ..
 cd 3-web_server && terragrunt plan
 terragrunt apply
+
+
+OR
+
+terragrunt run-all plan
+
+terragrunt run-all apply
+
+terragrunt run-all destroy
 ```
 - Server will be accessible on http://localhost:80 with user Admin and pass zabbix
